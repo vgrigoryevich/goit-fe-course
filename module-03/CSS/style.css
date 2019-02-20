@@ -1,8 +1,13 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+html{
+    box-sizing: border-box;  
 }
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 
 .body {
     font-family: 'Playfair Display', serif;
@@ -10,53 +15,54 @@
     height: 2079px;
 }
 
-.nav{
-    margin-top: 77px;
-    margin-bottom: 103px;
-    text-align: center;
+.navigation-menu{
+display: inline-block;
+vertical-align: middle;
+width: 1200px;
+margin: 0;
+padding: 0;
+font-size: 14pt;
+list-style: none;
+text-align: center;
+
+}
+.page-nav{
+    padding-top: 77px;
+    padding-bottom: 103px;
+}
+.navigation-menu li{
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.nav a{
-    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
-    font-size: 14pt;
+.navigation-menu li:not(:last-child){
+margin-right: 120px;
+}
+    
+.navigation-menu a{
     color: rgba(98, 98, 98, 255);
+    text-transform: uppercase;
     text-decoration: none;
 }
-.n1 {
-    margin-right: 121px;
+
+.navigation-menu a:hover,
+.navigation-menu a:focus{
+    color: aquamarine;
 }
 
-.n3 {
-    margin-left: 103px;
-    margin-right: 95px;
+.content{
+    width: 902px;
 }
 
-.box1, .box2{
-display: inline-block;    
+.blocs-list{
+    display: inline-block;
+    margin: 0;
+padding: 0;
+    list-style: none;
+    
 }
-
-.box1 img{
-    box-sizing: content-box;
-    padding: 1px 19px 37px 35px;
-    margin-left: 115px; 
-}
-
-.com1{
-width: 63px;
-height: 11px;
-font-size: 14pt;
-color: rgba(180, 173, 158, 255);
-text-align: left;
-margin-left: 151px;
-}
-
-.box1 h2{
-    width: 407px;
-    height: 30px;
-    font-size: 30pt;
-    color: rgba(98, 98, 98, 255);
-    text-align: left; 
-    margin-top: 34px;
-    margin-left: 151px;
-
+.blocs1{
+display: inline-block;
+width: 320px;
+margin-right: 100px;
 }
