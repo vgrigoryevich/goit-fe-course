@@ -1,68 +1,86 @@
-html{
-    box-sizing: border-box;  
+html {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
 }
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
 }
 
-
-.body {
-    font-family: 'Playfair Display', serif;
+body {
     width: 1200px;
     height: 2079px;
-}
-
-.navigation-menu{
-display: inline-block;
-vertical-align: middle;
-width: 1200px;
-margin: 0;
-padding: 0;
-font-size: 14pt;
-list-style: none;
-text-align: center;
 
 }
-.page-nav{
+git
+.navigation-menu {
+    display: inline-block;
+    vertical-align: middle;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+    list-style: none;
+    text-align: center;
+
+}
+
+.page-nav {
     padding-top: 77px;
     padding-bottom: 103px;
 }
-.navigation-menu li{
+
+.navigation-menu li {
     display: inline-block;
     vertical-align: middle;
 }
 
-.navigation-menu li:not(:last-child){
-margin-right: 120px;
+.navigation-menu li:not(:last-child) {
+    margin-right: 60px;
 }
-    
-.navigation-menu a{
+
+.navigation-menu a {
     color: rgba(98, 98, 98, 255);
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .navigation-menu a:hover,
-.navigation-menu a:focus{
+.navigation-menu a:focus {
     color: aquamarine;
 }
 
-.content{
-    width: 902px;
+.blocs-list {
+    width: 960px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
 }
 
-.blocs-list{
+.blocs1,
+.blocs2 {
     display: inline-block;
-    margin: 0;
-padding: 0;
-    list-style: none;
-    
+    width: 320px;
+    margin-left: 100px;
 }
-.blocs1{
-display: inline-block;
-width: 320px;
-margin-right: 100px;
+
+.blocs-list figcaption {
+    padding-top: 16px;
+    font-size: 11pt;
+    color: rgba(180, 173, 158, 255);
+
+}
+
+.blocs-list h2 {
+    font-size: 20pt;
+    color: rgba(98, 98, 98, 255);
+
+}
+
+.blocs-list p {
+    font-size: 11pt;
+    color: rgba(98, 98, 98, 255);
 }
