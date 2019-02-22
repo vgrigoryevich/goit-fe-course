@@ -63,16 +63,19 @@ body {
 .blocks1,
 .blocks2,
 .blocks3,
-.blocks4 {
+.blocks4, .blocks5, .blocks6{
     display: inline-block;
     width: 470px;
-    padding: 1px 19px 37px 35px;
 }
 
 
 .blocks1,
-.blocks3 {
+.blocks3, .blocks5 {
     margin-left: 115px;
+}
+
+.blocks1, .blocks2, .blocks3, .blocks4{
+    padding-bottom: 36px;
 }
 
 .blocks-list figcaption {
@@ -83,10 +86,24 @@ body {
 
 .blocks-list h2 {
     font-size: 30px;
+    font-weight: 400;
     color: rgba(125, 125, 125, 255);
 }
 
 .blocks-list p {
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
+}
+
+.button{
+    display: inline-block;
+    width: 164px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.button a{
+    text-decoration: none;
 }
