@@ -95,15 +95,23 @@ body {
     color: rgba(98, 98, 98, 255);
 }
 
+
+
 .button{
     display: inline-block;
     width: 164px;
     height: 60px;
     vertical-align: middle;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-top: 15px;
     text-align: center;
-    border: 1px solid black;
+    border: 0.5px solid rgba(98, 98, 98, 255);
+    font-size: 20px;
+    
 
 }
 .button a{
     text-decoration: none;
+    color: rgba(98, 98, 98, 255);
 }
