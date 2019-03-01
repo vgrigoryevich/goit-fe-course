@@ -65,13 +65,17 @@ body {
 .blocks3,
 .blocks4, .blocks5, .blocks6{
     display: inline-block;
-    width: 470px;
+    width: 420px;
 }
 
 
 .blocks1,
 .blocks3, .blocks5 {
     margin-left: 115px;
+}
+
+.blocks2, .blocks4, .blocks6 {
+margin-left: 60px;
 }
 
 .blocks1, .blocks2, .blocks3, .blocks4{
@@ -106,7 +110,7 @@ body {
     margin-top: 50px;
     padding-top: 15px;
     text-align: center;
-    border: 0.5px solid rgba(98, 98, 98, 255);
+    border: 1px solid rgba(98, 98, 98, 255);
     font-size: 20px;
     
 
