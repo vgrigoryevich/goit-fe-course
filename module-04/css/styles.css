@@ -8,3 +8,51 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+/* line-height: 21px;  */
+}
+
+/* img li{
+    width: 255px;
+    height: 322px;
+} */
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.nav-block{
+    float: right;
+    width: 467px;
+ margin-top: 25px;
+    list-style: none;
+}
+
+
+.nav-block li{
+float: left;
+top: 20px;
+}
+
+.nav-block li:not(:last-child) {
+    margin-right: 20px;
+    }
+
+.site-logo{
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.title{
+    float: none;
+    top: 100px;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
