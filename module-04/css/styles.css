@@ -30,7 +30,16 @@ body {
 
 .nav-block li {
   float: left;
-  top: 20px;
+}
+
+.nav-item a {
+color: #0f0101;
+text-decoration: none;
+font-weight: bold;
+}
+
+.nav-item a:hover{
+  color: aqua;
 }
 
 .nav-block li:not(:last-child) {
@@ -38,11 +47,18 @@ body {
 }
 
 .site-logo {
-  display: inline-block;
-  width: 30px;
-  height: 32px;
-  margin-left: 96px;
-  margin-top: 25px;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #515151;  
+}
+
+.site-logo::first-letter{
+color: aqua;
+font-weight: bold;
 }
 
 .title {
@@ -52,7 +68,7 @@ body {
   bottom: 20px;
   text-align: center;
   font-size: 36px;
-  color: #515151;
+  color: #515151 ;
 }
 
 .title::after {
