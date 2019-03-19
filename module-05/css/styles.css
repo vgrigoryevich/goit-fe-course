@@ -21,6 +21,8 @@ body {
   clear: both;
 }
 
+/* Navigation */
+
 .nav-block {
   float: right;
   width: 467px;
@@ -61,43 +63,53 @@ color: aqua;
 font-weight: bold;
 }
 
+/* SLIDER */
+
 .slider{
+  position: relative;
   width: 1600px;
   height: 600px;
+  margin-top: 40px;
 }
 
 .slider-ctrl{
   position: absolute;
     background-color: rgb(26, 188, 156);
     border: none;
-    display: inline-block;
-    width: 104px;
-    height: 104px;
-    z-index: 83;
-    opacity: 0.8;
-    top: 50%;
-    transform: translateY(-50%)
+    width: 90px;
+    height: 90px;
+    opacity: 0.9;
     
   }
 
-.icon-text{
-  position: fixed;
-  width: 1110px;
-  height: 200px;
-}
+  .transparency{
+    width: 1440px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.521);
+    position: absolute;
+    top: 0;
+  }
 
+  .slider-img{
+    position: relative;
+    width: 1600px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
   .title{
-position: absolute;
-top: 20%;
-left: 35%; 
-text-align: center;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+      }
 
+  .title-txt{
+font-size: 36px;
   }
 
-  .ctrl-left{
-    left: 240px;
-  }
-
-  .ctrl-right{
-right: 240px;
+  .txt-small{
+    font-size: 18px;
   }
