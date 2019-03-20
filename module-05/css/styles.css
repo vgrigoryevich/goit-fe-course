@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 1170px;
+  width: 1200px;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -67,7 +67,7 @@ font-weight: bold;
 
 .slider{
   position: relative;
-  width: 1600px;
+  width: 1440px;
   height: 600px;
   margin-top: 40px;
 }
@@ -78,9 +78,19 @@ font-weight: bold;
     border: none;
     width: 90px;
     height: 90px;
-    opacity: 0.9;
+    opacity: 0.7;
     
   }
+.ctrl-left{
+  bottom: 280px;
+  left: 200px;
+
+
+}
+.ctrl-right{
+  bottom: 280px;
+  right: 180px;
+}
 
   .transparency{
     width: 1440px;
@@ -92,7 +102,7 @@ font-weight: bold;
 
   .slider-img{
     position: relative;
-    width: 1600px;
+    width: 1440px;
     height: 500px;
     object-fit: cover;
   }
@@ -100,16 +110,22 @@ font-weight: bold;
   .title{
     width: 800px;
     position: absolute;
-    top: 50%;
-    left: 50%; 
+    top: 40%;
+    left: 55%; 
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
       }
 
   .title-txt{
-font-size: 36px;
-  }
+    text-align: left;
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+    }
 
   .txt-small{
     font-size: 18px;
+    font-weight: 300;
   }
+  
