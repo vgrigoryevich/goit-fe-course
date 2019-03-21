@@ -1,67 +1,14 @@
-/* montserrat-regular - latin */
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Montserrat Regular'), local('Montserrat-Regular'),
-         url('../fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-  /* montserrat-700 - latin */
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/montserrat-v12-latin-700.eot'); /* IE9 Compat Modes */
-    src: local('Montserrat Bold'), local('Montserrat-Bold'),
-         url('../fonts/montserrat-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/montserrat-v12-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/montserrat-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/montserrat-v12-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-  /* kaushan-script-regular - latin */
-@font-face {
-    font-family: 'Kaushan Script';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/kaushan-script-v7-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Kaushan Script'), local('KaushanScript-Regular'),
-         url('../fonts/kaushan-script-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/kaushan-script-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/kaushan-script-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/kaushan-script-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/kaushan-script-v7-latin-regular.svg#KaushanScript') format('svg'); /* Legacy iOS */
-  }
-  /* roboto-regular - latin */
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Roboto'), local('Roboto-Regular'),
-         url('../fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     width: 1201px;
 }
 
 /* HEADER */
 
-.navigation{
+.navigation {
     display: flex;
     min-height: 100px;
     margin-bottom: 105px;
@@ -69,81 +16,267 @@ body{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     font-size: 30px;
-  font-family: 'Montserrat' serif;
-  font-weight: 700;
- color: #95e1d3;
-  text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #95e1d3;
+    text-decoration: none;
 }
 
-.navlist{
+/* NAVIGATION */
+
+.navlist {
     width: 491px;
     display: inline-flex;
     list-style: none;
     justify-content: space-between;
 }
 
-.nav-item a{
+.nav-item a {
     text-decoration: none;
     color: #95e1d3;
     font-size: 14px;
-    font-family: 'Montserrat' serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: #f38181;
     border-bottom: 3px solid #f38181;
 
 }
 
-.title{ 
+/* TITLE TXT */
+
+.title {
     width: 400px;
     margin: auto;
     text-align: center;
 }
 
-.titleOne{
-    font-family: 'Kaushan Script' serif;
+.titleOne {
+    font-family: 'Kaushan Script', cursive;
     font-weight: 400;
-    font-style: italic;
 }
 
-.titleTwo{
-font-family: 'Montserrat' serif;
-font-weight: 700;
+.titleTwo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
-.titleTwo::after{
+.titleTwo::after {
     content: '';
     width: 60px;
     height: 3px;
     background-color: #f38181;
     display: block;
     margin: 0 auto;
-    margin-top: 60px; 
+    margin-top: 60px;
 
 }
 
-.features-main{
+/* FEATURES */
+
+.features {
+    width: 1200px;
     display: flex;
     list-style: none;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.featuresBox{
-width: 300px;
-display: flex;
-justify-content: space-between;
+.featuresBox {
+    flex: 0 0 280px;
+    padding-left: 50px;
+    position: relative;
+    padding-top: 60px;
+
 }
 
+.features-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    padding-bottom: 10px;
+}
 
-.One::before{
-    display: inline-flex;
+.features-txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
+}
+
+/* ICONS LEFT */
+
+.featuresBox::before {
+    content: '';
     position: absolute;
-    content: url(../image/icon/ALARM@1X.png);
-    width: 50px;
-    height: 50px;
+    display: inline-block;
+    right: 300px;
+    top: 65px;
+    width: 30px;
+    height: 30px;
 
+}
+
+.One::before {
+    content: url(../image/icon/ALARM@1X.png);
+
+}
+
+.Two::before {
+    content: url(../image/icon/LINE\ GRAPH@1X.png);
+
+}
+
+.Three::before {
+    content: url(../image/icon/COMPUTER\ _\ OK@1X.png);
+
+}
+
+.Four::before {
+    content: url(../image/icon/BOOK\ 2@1X.png);
+}
+
+.Five::before {
+    content: url(../image/icon/HOME@1X.png);
+}
+
+.Six::before {
+    content: url(../image/icon/IMAGE@1X.png);
+}
+
+/* TITLE TXT TWO */
+
+.title2 {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.titleOne2 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+
+.titleTwo2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.titleTwo2::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.team-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(153, 153, 153, 255);
+    padding: 90px 0 90px 0;
+}
+
+/* PHOTO LIST */
+
+.team-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgOne {
+    background: url(../image/photo/Layer\ 16@1X.png);
+}
+
+.imgTwo {
+    background: url(../image/photo/Layer\ 19@1X.png);
+}
+
+.imgThree {
+    background: url(../image/photo/Layer\ 18@1X.png);
+}
+
+/* ANIMATION */
+.team-list-item:hover .img {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0px 0px #95e1d3;
+}
+
+.team-list-item:hover .slice {
+    opacity: 1;
+}
+
+.img {
+    width: 380px;
+    margin-bottom: 30px;
+    transition: all 200ms linear;
+}
+
+.slice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 468px;
+    background: linear-gradient(to bottom, rgba(238, 137, 138, 0.8), rgba(240, 217, 137, 0.8));
+    opacity: 0;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-item {
+    transform: translate(-10px, -10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fce38a;
+    border: 1px solid #f9bd87;
+    transition: all 200ms linear;
+}
+
+.social-item:hover {
+    background-color: #95e1d3;
+}
+
+/* TEAM TEXT */
+
+.team-name {
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    padding-bottom: 5px;
+}
+
+.team-job {
+    font-family: 'Roboto'sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
 }
