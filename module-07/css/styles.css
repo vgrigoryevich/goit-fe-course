@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+.navigations {
+    display: flex;
+    min-height: 100px;
+    margin-bottom: 105px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #fed136;
+    font-size: 46px;
+
+
+}
+
+.nav-list a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+
+}
