@@ -10,6 +10,8 @@ body{
 
 }
 
+/* NAVIGATION+LOGO */
+
 .navigations {
     display: flex;
     min-height: 100px;
@@ -24,8 +26,6 @@ body{
     font-family: 'Dancing Script', cursive;
     color: #fed136;
     font-size: 46px;
-
-
 }
 
 .nav-list a{
@@ -33,6 +33,107 @@ body{
     margin-right: 20px;
     font-family: 'Montserrat', sans-serif;
     color: black;
+}
 
+.nav-list a:hover{
+    color: #fed136;
+}
 
+/* TITLE */
+
+.title{
+    display: flex;
+flex-flow: column wrap;
+align-items: center;
+}
+
+.title1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.title2{
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(119, 119, 119, 255);
+    margin-bottom: 90px;
+}
+
+/* MAIN WRAPPER */
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+}
+
+.wrap1, .wrap2, .wrap3{
+    max-width: 300px;
+}
+
+.wrap-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.wrap-txt{
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(119, 119, 119, 255);
+    margin-bottom: 120px;
+}
+
+.wrap1::before{
+   content: url(../image/crop@1X.png)
+}
+
+.wrap2::before{
+    content: url(../image/crop@1X\ \(1\).png)
+}
+
+.wrap3::before{
+    content: url(../image/crop@1X\ \(2\).png)
+}
+
+/* TITLE TWO */
+
+.titleTwo{
+    display: flex;
+flex-flow: column wrap;
+align-items: center;
+}
+
+.title-1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.title-2{
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(119, 119, 119, 255);
+    margin-bottom: 90px;
+}
+
+/* WRAPPER TWO */
+
+.main-bottom{
+    background-color: #222222;
+}
+
+.backimg{
+    display: block;
+margin-left: auto;
 }
