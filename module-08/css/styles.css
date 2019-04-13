@@ -120,3 +120,28 @@ text-decoration: none;
 }
 
 
+/* MAIN */
+
+.main-container{
+max-width: 322px;
+margin: auto;
+padding-top: 30px;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.ppl-name{
+    text-align: center;
+}
+
+.ppl-info{
+    text-align: center;
+}
+
+.ppl-photo{
+display: flex;
+justify-content: center;
+    margin: 0 auto;
+}
