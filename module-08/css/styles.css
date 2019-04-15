@@ -130,18 +130,49 @@ padding-top: 30px;
 
 .main-title{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.people{
+    max-width: 200px;
+    margin: auto;
+    padding-top: 20px;
 }
 
 .ppl-name{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 12px;
 }
 
 .ppl-info{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
 }
 
-.ppl-photo{
-display: flex;
-justify-content: center;
-    margin: 0 auto;
+
+
+.image{
+max-width: 122px;
+margin: auto;
+position: relative;
+margin-bottom: 10px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.ppl-icon{
+    width: 33px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #ffffff;
 }
