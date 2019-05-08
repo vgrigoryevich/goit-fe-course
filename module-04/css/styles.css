@@ -95,7 +95,9 @@ font-weight: bold;
 }
 
 
-.container-top {
+.container-top, .container-bot {
+  width: 255px;
+  height: 324px;
   margin-bottom: 50px;
 }
 
@@ -195,3 +197,44 @@ font-weight: bold;
 .b8 {
   top: 60.3%;
 }
+
+
+.bottom-container{
+  display: inline-block;
+  margin-left: 30px;
+  width: 355px;
+  height: 500px;
+}
+
+.bottom-title::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: aqua;
+    display: block;
+    margin-top: 10px;
+}
+
+.bottom-title {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+color: #555252;
+}
+
+.bottom-txt {
+  padding-top: 20px;
+}
+
+.button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: aqua;
+  box-shadow: 0 -3px aqua inset;
+  transition: 0.2s;
+  position: relative;
+  top: 30px;
+} 
