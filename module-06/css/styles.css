@@ -10,9 +10,11 @@ body {
 
 .navigation {
     display: flex;
+    width: 1200px;
     min-height: 100px;
     margin-bottom: 105px;
     align-items: center;
+    margin: auto;
     justify-content: space-between;
 }
 
@@ -79,7 +81,7 @@ body {
 /* FEATURES */
 
 .features {
-    width: 980px;
+    width: 1000px;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -90,7 +92,7 @@ body {
 .featuresBox {
     width: 310px;
     flex: 0 0 280px;
-    padding-left: 35px;
+    padding-left: 50px;
     position: relative;
     padding-top: 60px;
 
@@ -193,6 +195,8 @@ body {
 /* PHOTO LIST */
 
 .team-list {
+    width: 1200px;
+    margin: auto;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -294,6 +298,12 @@ body {
     background-color: #e0d9d9;
     display: block;
     margin: auto;
+}
+
+.footer{
+    width: 1200px;
+    margin: auto;
+
 }
 
 .foot-txt{
