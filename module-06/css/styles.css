@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 1201px;
+    width: 1200px;
 }
 
 /* HEADER */
@@ -79,16 +79,18 @@ body {
 /* FEATURES */
 
 .features {
-    width: 1200px;
+    width: 980px;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
 }
 
 .featuresBox {
+    width: 310px;
     flex: 0 0 280px;
-    padding-left: 50px;
+    padding-left: 35px;
     position: relative;
     padding-top: 60px;
 
@@ -115,7 +117,7 @@ body {
     content: '';
     position: absolute;
     display: inline-block;
-    right: 300px;
+    right: 290px;
     top: 65px;
     width: 30px;
     height: 30px;
