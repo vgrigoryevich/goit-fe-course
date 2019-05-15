@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.wrapper-header {
+    padding-top: 1.25rem;
+    width: 100vw;
+    height: 500px;
+    background-image: url(../img/Vector\ Smart\ Object@1X.png);
+    background-position: center;
+    margin-bottom: 4.0625rem;
+}
+
+.transparency {
+    background-color: rgba(0, 0, 0, 0.521);
+    margin: auto;
+}
+
+.wrapper {
+    max-width: 62rem;
+    margin: auto;
+}
+
+.top-buttons {
+    margin-bottom: 6.875rem;
+}
+
+.silka {
+    text-decoration: white;
+}
+
+.login, .signup {
+    padding: 6px 0;
+    color: #ffffff;
+    background: transparent;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 1.25rem;
+    text-align: center;
+    transition: all 150ms linear;
+}
+
+.login:hover,
+.signup:hover {
+    border: 2px solid #ffffff;
+    border-radius: 1.25rem;
+}
+
+.log {
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2.1875rem;
+}
+
+.headline {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.9375rem;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.qwer {
+    text-align: center;
+}
+
+.bottom-button {
+    width: 17.375rem;
+    text-align: center;
+    padding: 8px 0;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.25rem;
+    background: #ff4e50;
+    /* transition: all 150ms linear; */
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* MAIN */
+
+
+.wrapper-main {
+    max-width: 62rem;
+    margin: auto;
+}
+
+.headline2 {
+    text-align: center;
+    color: #333333;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 3rem 0 2rem 0;
+}
+
+.people {
+    width: 13.625rem;
+    margin: auto;
+}
+
+.image {
+    width: 7.625rem;
+    height: 7.625rem;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.image > img {
+    border-radius: 50%;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.headline-people {
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.text-people {
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
