@@ -398,7 +398,8 @@
 }
 
 .list-team__svg {
-    width: 27px;
+    fill: #F38181;
+    width: 30px;
     height: 32px;
 }
 
