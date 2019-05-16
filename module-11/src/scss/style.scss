@@ -1,0 +1,15 @@
+@import "settings";
+
+@import './helpers/variables.scss';
+@import './normalize.scss';
+@import './helpers/base.scss';
+
+
+// Components
+
+@import './component/nav+text.scss';
+@import './component/container.scss';
+@import'./component/page-article.scss';
+
+// Media
+@import './media/media.scss'

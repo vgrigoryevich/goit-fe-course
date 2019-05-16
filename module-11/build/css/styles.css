@@ -374,3 +374,150 @@ template {
 [hidden] {
   display: none;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navlist-style {
+  list-style: none;
+}
+
+.main-text {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #999999;
+}
+
+.text-footer {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.page-navigation {
+  padding-top: 25px;
+  margin-bottom: 130px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__logo {
+  font-size: 30px;
+}
+
+.navlist {
+  width: 622px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlist__link {
+  padding-bottom: 10px;
+}
+
+.navlist__item--hover:hover .navlist__link {
+  color: #fce38a;
+  border-bottom: 3px solid #fce38a;
+  transition: 150ms all linear;
+}
+
+.navlist__svg {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+.navlist__svg:hover {
+  fill: #fce38a;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background: url(/src/images/backgr.pngm) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 45px;
+}
+
+.wrapper {
+  width: 1202px;
+  margin: auto;
+}
+
+.general-headline {
+  font-size: 72px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.page-headline {
+  width: 821px;
+  margin: auto;
+  margin-bottom: 110px;
+}
+
+.page-article {
+  margin-bottom: 30px;
+}
+
+.headline-two {
+  font-size: 150px;
+  line-height: 1;
+  text-align: center;
+}
+
+.page-button {
+  padding-bottom: 230px;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  width: 154px;
+  height: 32px;
+  border: 3px solid #ffffff;
+  background: transparent;
+  font-size: 14px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .container {
+    background: url(/src/images/Layer16-min.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image-1 {
+    background: url(/src/images/Layer16@2X-min.png);
+    background-size: cover;
+  }
+
+  .image-2 {
+    background: url(/src/images/Layer19@2X-min.png);
+    background-size: cover;
+  }
+
+  .image-3 {
+    background: url(/src/images/Layer18@2X-min.png);
+    background-size: cover;
+  }
+}
