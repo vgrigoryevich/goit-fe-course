@@ -1,0 +1,22 @@
+/*
+   Import partials below
+*/
+@import './helpers/variables.scss';
+@import './normalize.scss';
+@import './helpers/base.scss';
+
+
+// Components
+
+@import './component/nav+text.scss';
+@import './component/container.scss';
+@import'./component/page-article.scss';
+@import './component/txt-premain.scss';
+@import'./component/main.scss';
+@import'./component/team-member.scss';
+@import'./component/team-list.scss';
+@import'./component/foot-txt.scss';
+@import'./component/foot-component.scss';
+
+// Media
+@import './media/media.scss';

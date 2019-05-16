@@ -1,0 +1,45 @@
+.member-team__name {
+    text-transform: uppercase;
+    font-size: $main-fontsize;
+    font-family: $main-font;
+    font-weight: 500;
+    color: #333333;
+}
+
+.member-team__text {
+    font-size: 15px;
+    font-family: $main-font-two;
+    color: #b3b3b3;
+    font-weight: 300;
+    font-style: italic;
+}
+
+::-webkit-input-placeholder {
+    color: #e7e7e7;
+    font-size: $main-fontsize;
+    font-family: $main-font-two;
+    font-weight: 300i;
+}
+
+.btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    background-color: #95e1d3;
+    color: $main-color;
+    font-size: $main-fontsize;
+    font-family: $main-font;
+    font-weight: 700;
+}
+
+.forma__inpt {
+    width: 228px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    padding: 0 10px;
+    color: #8f8e8e;
+    font-size: $main-fontsize;
+    font-family: $main-font-two;
+    font-weight: 300i;
+}

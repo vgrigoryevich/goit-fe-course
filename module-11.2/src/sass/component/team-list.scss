@@ -1,0 +1,39 @@
+
+.list-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: $fx;
+}
+
+.list-team__item {
+    width: 56px;
+    height: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: $hover-color;
+
+    &:not(:last-child) {
+    border-right: 1px solid #f9bd87;
+}
+}
+
+.list-team__item--hover:hover {
+    background-color: #f38181;
+
+&:hover .list-team__svg {
+    fill: $main-color;
+}
+}
+
+.list-team__svg {
+    fill: #F38181;
+    width: 30px;
+    height: 32px;
+}

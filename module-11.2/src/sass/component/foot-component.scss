@@ -1,0 +1,28 @@
+.page-name {
+    margin-bottom: 15px;
+}
+
+.page-footer {
+    width: 1202px;
+    margin: auto;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: $fx;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.page-footer__text {
+    color: #333333;
+}
+
+span {
+    color: #f38181;
+}

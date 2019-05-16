@@ -1,0 +1,33 @@
+.box-headline {
+    margin-bottom: 18px;
+}
+
+.heading {
+    font-size: 24px;
+    font-family: $font-cursive;
+    font-weight: $main-fontweight;
+    text-align: $txt-center;
+}
+
+.box-caption {
+    margin-bottom: 38px;
+}
+
+.caption {
+    font-family: $main-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: $txt-center;
+}
+
+.page-line {
+    margin-bottom: 65px;
+}
+
+.line {
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
