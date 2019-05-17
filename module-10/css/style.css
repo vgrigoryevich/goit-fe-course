@@ -31,7 +31,7 @@
 }
 
 .container {
-    width: 100%;
+    min-width: 1202px;
     height: auto;
     background: url(../img/imagecompressor/Layer\ 15-min.png) no-repeat;
     background-size: cover;
