@@ -750,12 +750,12 @@ span {
   }
 
   .image-2 {
-    background: url(../images//Layer19@2X-min.png);
+    background: url(../images//Layer19@1X-min.png);
     background-size: cover;
   }
 
   .image-3 {
-    background: url(../images/Layer18@2X-min.png);
+    background: url(../images/Layer18@1X-min.png);
     background-size: cover;
   }
 }
