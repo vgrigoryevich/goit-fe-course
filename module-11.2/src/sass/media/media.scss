@@ -2,7 +2,7 @@
 (-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi) {
   .container {
-    background: url(/images/Layer16-min.png) no-repeat;
+    background: url(../images/Layer16-min.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -12,7 +12,7 @@
 (-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi) {
   .image-1 {
-    background: url(/images/Layer16@2X-min.png);
+    background: url(../images/Layer16@2X-min.png);
     background-size: cover;
   }
 }
@@ -21,7 +21,7 @@
 (-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi) {
   .image-2 {
-    background: url(/images//Layer19@2X-min.png);
+    background: url(../images//Layer19@2X-min.png);
     background-size: cover;
   }
 }
@@ -30,7 +30,7 @@
 (-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi) {
   .image-3 {
-    background: url(/images/Layer18@2X-min.png);
+    background: url(../images/Layer18@2X-min.png);
     background-size: cover;
   }
 }

@@ -450,7 +450,7 @@ template {
 .container {
   min-width: 1202px;
   height: auto;
-  background: url(/images/backgr.png) no-repeat;
+  background: url(../images/backgr.png) no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 45px;
@@ -606,21 +606,21 @@ template {
 .image-1 {
   width: 380px;
   height: 470px;
-  background: url(/images/Layer16@1X-min.png);
+  background: url(../images/Layer16@1X-min.png);
   transition: 150ms all linear;
 }
 
 .image-2 {
   width: 380px;
   height: 470px;
-  background: url(/images/Layer19@1X-min.png);
+  background: url(../images/Layer19@1X-min.png);
   transition: 150ms all linear;
 }
 
 .image-3 {
   width: 380px;
   height: 470px;
-  background: url(/images/Layer18@1X-min.png);
+  background: url(../images/Layer18@1X-min.png);
   transition: 150ms all linear;
 }
 
@@ -739,23 +739,23 @@ span {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .container {
-    background: url(/images/Layer16-min.png) no-repeat;
+    background: url(../images/Layer16-min.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   .image-1 {
-    background: url(/images/Layer16@2X-min.png);
+    background: url(../images/Layer16@2X-min.png);
     background-size: cover;
   }
 
   .image-2 {
-    background: url(/images//Layer19@2X-min.png);
+    background: url(../images//Layer19@2X-min.png);
     background-size: cover;
   }
 
   .image-3 {
-    background: url(/images/Layer18@2X-min.png);
+    background: url(../images/Layer18@2X-min.png);
     background-size: cover;
   }
 }
