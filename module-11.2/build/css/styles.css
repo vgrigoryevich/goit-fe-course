@@ -655,10 +655,10 @@ template {
 }
 
 .list-team__item--hover:hover {
-  background-color: #f38181;
+  background-color: #F38181;
 }
 
-.list-team__item--hover:hover:hover .list-team__svg {
+.list-team__item--hover:hover .list-team__svg {
   fill: #ffffff;
 }
 

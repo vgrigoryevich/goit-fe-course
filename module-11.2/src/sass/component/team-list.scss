@@ -25,15 +25,14 @@
 }
 
 .list-team__item--hover:hover {
-    background-color: #f38181;
-
-&:hover .list-team__svg {
-    fill: $main-color;
+    background-color: $social-color;
 }
+    .list-team__item--hover:hover .list-team__svg {
+    fill: $main-color;
 }
 
 .list-team__svg {
-    fill: #F38181;
+    fill: $social-color;
     width: 30px;
     height: 32px;
 }
