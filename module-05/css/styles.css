@@ -157,6 +157,7 @@ img {
 
 .item{
   width: 1110px;
+  height: auto;
   margin-bottom: 100px;
 
 }
@@ -164,6 +165,8 @@ img {
 .item1, .item2, .item3, .item4{
   float: left;
   position: relative;
+  width: 255px; 
+  height:280px;
   
 }
 
@@ -213,12 +216,13 @@ img {
 .overlay{
   display: none;
   position: absolute;
-  top: 44%;
+  top: 43%;
   left: 50%;
+  bottom: 5%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width: 236px;
-  height: 262px;
+  width: 225px;
+  height: 220px;
   background-color: rgba(0, 0, 0, 0.322);    
 
 }
@@ -284,7 +288,7 @@ img {
 }
 
 .bigbut:hover {
-  background-color: black;
+  background-color: #323232;
 }
 
 .color:hover > .overlay{
