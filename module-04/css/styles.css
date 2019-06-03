@@ -125,6 +125,7 @@ body {
 .box2 {
   display: inline-block;
   position: relative;
+  margin: 0;
 }
 
 .box {
@@ -140,7 +141,7 @@ body {
   width: 40px;
   height: 30px;
   background-color: #515151;
-  margin: 0 0;
+  margin: 0; 
 }
 
 /* ПОЗИЦИОНИРОВАНИЕ IMG */
@@ -207,19 +208,19 @@ body {
 /* Тут у нас эфект ховера */
 
 .container-top:hover p {
-  background-color: aqua;
+  background-color:#7fd9c7;
 }
 
 .container-bot:hover p {
-  background-color: aqua;
+  background-color:#7fd9c7;
 }
 
 .container-top:hover .box {
-  background-color: aqua;
+  background-color: #1abc9c;
 }
 
 .container-bot:hover .box {
-  background-color: aqua;
+  background-color: #1abc9c;
 }
 
 .bottom-container {
